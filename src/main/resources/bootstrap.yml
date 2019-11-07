@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      name: data
+      label: master
+      profile: pro
+      uri: http://localhost:12581
+server:
+  port: 12582
